@@ -4,36 +4,6 @@ A machine learning project that investigates fraud detection on financial transa
 
 ---
 
-## 📁 Project Structure
-
-```
-financial-fraud-detection/
-│
-├── RQ1_Baseline_Models.ipynb            # Baseline model comparison
-├── RQ2_Feature_Importance.ipynb         # Feature importance analysis
-├── RQ3_Class_Imbalance.ipynb            # Class imbalance handling
-├── RQ4_Ensemble_Models.ipynb            # Advanced ensemble models
-├── RQ5_Hyperparameter_Tuning.ipynb      # Hyperparameter tuning
-│
-├── results/
-│   ├── table_rq1_baseline_comparison.csv
-│   ├── table_rq2_feature_importance.csv
-│   ├── table_rq3_imbalance_handling.csv
-│   ├── table_rq4_ensemble_models.csv
-│   ├── table_rq5_tuning_comparison.csv
-│   ├── table_rq5_best_params.csv
-│   ├── figure_rq1_baseline_comparison.pdf
-│   ├── figure_rq2_feature_importance.pdf
-│   ├── figure_rq3_imbalance_handling.pdf
-│   ├── figure_rq4_ensemble_models.pdf
-│   └── figure_rq5_hyperparameter_tuning.pdf
-│
-├── README.md
-└── requirements.txt
-```
-
----
-
 ## 📊 Dataset
 
 **Name:** Financial Transactions Dataset for Fraud Detection  
@@ -124,7 +94,7 @@ Save CSV table + PDF figure
 
 ## 🚀 How to Run
 
-### Option 1: Run on Kaggle (Recommended)
+###  Run on Kaggle (Recommended)
 
 1. Go to [Kaggle](https://www.kaggle.com) and sign in
 2. Open each `.ipynb` file and upload to a new Kaggle notebook:
@@ -134,27 +104,6 @@ Save CSV table + PDF figure
 4. Run cells one by one using `Shift + Enter`
 5. Outputs (CSV + PDF) will be saved in the Kaggle working directory
 
-### Option 2: Run Locally
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/financial-fraud-detection.git
-cd financial-fraud-detection
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Download dataset from Kaggle
-# Place the CSV file at: data/financial_fraud_detection_dataset.csv
-
-# 4. Update DATA_PATH in each notebook:
-DATA_PATH = 'data/financial_fraud_detection_dataset.csv'
-
-# 5. Launch Jupyter
-jupyter notebook
-```
-
----
 
 ## 📦 Requirements
 
@@ -188,8 +137,4 @@ xgboost, lightgbm, imbalanced-learn, jupyter
 
 ---
 
-## 👤 Author
 
-**Naveenkumar**  
-Machine Learning Assignment — Fraud Detection  
-Dataset: Financial Transactions Dataset for Fraud Detection (Kaggle)
